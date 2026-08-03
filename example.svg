@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 740" width="760" height="740" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif">
+  <style>
+    .page  { fill: #eeeae4; }
+    .card  { fill: #fffdfa; stroke: #e5dfd6; }
+    .tile  { fill: #f5f3f0; }
+    .t1    { fill: #1b1917; }
+    .t2    { fill: #6b655c; }
+    .t3    { fill: #a09a90; }
+    .hair  { stroke: #efeae3; }
+    .rule  { stroke: #e5dfd6; }
+    .btn   { fill: none; stroke: #d3cbc0; }
+    .bar   { fill: #dcd6cd; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    @media (prefers-color-scheme: dark) {
+      .page { fill: #171614; }
+      .card { fill: #201e1b; stroke: #322e29; }
+      .tile { fill: #262320; }
+      .t1   { fill: #f2efe9; }
+      .t2   { fill: #a49d92; }
+      .t3   { fill: #756e64; }
+      .hair { stroke: #2b2824; }
+      .rule { stroke: #322e29; }
+      .btn  { stroke: #443e37; }
+      .bar  { fill: #35312c; }
+    }
+  </style>
+
+  <rect width="760" height="740" class="page"/>
+
+  <g transform="translate(24,22)">
+
+    <!-- metric row -->
+    <rect x="0"   y="0" width="166" height="78" rx="10" class="tile"/>
+    <rect x="178" y="0" width="166" height="78" rx="10" class="tile"/>
+    <rect x="356" y="0" width="166" height="78" rx="10" class="tile"/>
+    <rect x="534" y="0" width="178" height="78" rx="10" class="tile"/>
+    <rect x="0"   y="0" width="4" height="78" rx="2" fill="#c2562f"/>
+    <rect x="178" y="0" width="4" height="78" rx="2" fill="#2f7d4f"/>
+    <rect x="356" y="0" width="4" height="78" rx="2" fill="#4a6fa5"/>
+    <rect x="534" y="0" width="4" height="78" rx="2" fill="#b8860b"/>
+
+    <text x="18"  y="24" font-size="12" class="t2">Version</text>
+    <text x="18"  y="52" font-size="25" class="t1">3.3.0</text>
+    <text x="18"  y="69" font-size="11" class="t3">tagged 12 min ago</text>
+
+    <text x="196" y="24" font-size="12" class="t2">Tests</text>
+    <text x="196" y="52" font-size="25" fill="#2f7d4f">296</text>
+    <text x="196" y="69" font-size="11" class="t3">up from 94</text>
+
+    <text x="374" y="24" font-size="12" class="t2">Coverage</text>
+    <text x="374" y="52" font-size="25" class="t1">87%</text>
+    <rect x="374" y="61" width="120" height="5" rx="2.5" class="bar"/>
+    <rect x="374" y="61" width="104" height="5" rx="2.5" fill="#4a6fa5"/>
+
+    <text x="552" y="24" font-size="12" class="t2">Needs you</text>
+    <text x="552" y="52" font-size="25" fill="#b8860b">2</text>
+    <text x="552" y="69" font-size="11" class="t3">decisions pending</text>
+
+    <!-- done -->
+    <g transform="translate(0,96)">
+      <rect width="712" height="176" rx="13" class="card"/>
+      <circle cx="30" cy="30" r="9" fill="#2f7d4f"/>
+      <path d="M26 30 l3 3 l6 -7" stroke="#fff" stroke-width="2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="50" y="35" font-size="15" font-weight="500" class="t1">Done</text>
+      <rect x="640" y="20" width="56" height="21" rx="10" fill="#e2f0e7"/>
+      <text x="668" y="35" font-size="12" fill="#2f7d4f" text-anchor="middle">5 of 5</text>
+      <line x1="18" y1="52" x2="694" y2="52" class="rule"/>
+
+      <text x="22" y="76" font-size="13.5" class="t1">Sync engine merged and verified end to end</text>
+      <text x="694" y="76" font-size="11" class="mono t3" text-anchor="end">3441156</text>
+      <line x1="18" y1="86" x2="694" y2="86" class="hair"/>
+
+      <text x="22" y="106" font-size="13.5" class="t1">Conflict dialogue keeps both versions by default</text>
+      <text x="694" y="106" font-size="11" class="mono t3" text-anchor="end">c682248</text>
+      <line x1="18" y1="116" x2="694" y2="116" class="hair"/>
+
+      <text x="22" y="136" font-size="13.5" class="t1">Encryption swapped to a reviewed primitive</text>
+      <text x="694" y="136" font-size="11" class="mono t3" text-anchor="end">7f93635</text>
+      <line x1="18" y1="146" x2="694" y2="146" class="hair"/>
+
+      <text x="22" y="166" font-size="13.5" class="t1">Release cut and published</text>
+      <text x="694" y="166" font-size="11" class="mono t3" text-anchor="end">03bfce1</text>
+    </g>
+
+    <!-- waiting on you -->
+    <g transform="translate(0,288)">
+      <rect width="712" height="122" rx="13" class="card" stroke="#d8b45e" stroke-width="2"/>
+      <rect x="21" y="21" width="17" height="17" rx="4" fill="none" stroke="#9a6b12" stroke-width="2"/>
+      <text x="50" y="35" font-size="15" font-weight="500" class="t1">Waiting on you</text>
+      <rect x="654" y="20" width="42" height="21" rx="10" fill="#f8edd6"/>
+      <text x="675" y="35" font-size="12" fill="#9a6b12" text-anchor="middle">2</text>
+      <line x1="18" y1="52" x2="694" y2="52" class="rule"/>
+
+      <rect x="22" y="66" width="13" height="13" rx="3" fill="none" stroke="#b99a4e" stroke-width="1.6"/>
+      <text x="46" y="77" font-size="13.5" class="t1">Try pairing on your real laptop</text>
+      <line x1="18" y1="89" x2="694" y2="89" class="hair"/>
+      <rect x="22" y="99" width="13" height="13" rx="3" fill="none" stroke="#b99a4e" stroke-width="1.6"/>
+      <text x="46" y="110" font-size="13.5" class="t1">Decide whether covers sync on mobile data</text>
+    </g>
+
+    <!-- known gap -->
+    <g transform="translate(0,426)">
+      <rect width="712" height="94" rx="13" class="card" stroke="#d99b90" stroke-width="2"/>
+      <path d="M30 21 l10 18 h-20 z" fill="none" stroke="#b03a2e" stroke-width="2" stroke-linejoin="round"/>
+      <text x="30" y="37" font-size="10" fill="#b03a2e" text-anchor="middle">!</text>
+      <text x="50" y="35" font-size="15" font-weight="500" class="t1">Known gap</text>
+      <rect x="654" y="20" width="42" height="21" rx="10" fill="#f8e2de"/>
+      <text x="675" y="35" font-size="12" fill="#b03a2e" text-anchor="middle">1</text>
+      <line x1="18" y1="52" x2="694" y2="52" class="rule"/>
+      <text x="22" y="75" font-size="13.5" class="t1">Never tested over a real network, only loopback</text>
+      <text x="22" y="90" font-size="11.5" class="t3">Latency and a dropped connection mid-sync are both unexercised</text>
+    </g>
+
+    <!-- next -->
+    <g transform="translate(0,536)">
+      <rect width="712" height="146" rx="13" class="card"/>
+      <path d="M22 30 h16 m-6 -6 l6 6 l-6 6" stroke="#c2562f" stroke-width="2"
+            fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="50" y="35" font-size="15" font-weight="500" class="t1">Next</text>
+      <line x1="18" y1="52" x2="694" y2="52" class="rule"/>
+
+      <text x="22" y="80" font-size="13.5" class="t1">Test over a real network between two machines</text>
+      <rect x="574" y="65" width="120" height="24" rx="8" class="btn"/>
+      <text x="634" y="81" font-size="12" class="t1" text-anchor="middle">Start ↗</text>
+      <line x1="18" y1="101" x2="694" y2="101" class="hair"/>
+
+      <text x="22" y="124" font-size="13.5" class="t1">Handle a peer disappearing mid-sync</text>
+      <rect x="574" y="109" width="120" height="24" rx="8" class="btn"/>
+      <text x="634" y="125" font-size="12" class="t1" text-anchor="middle">Start ↗</text>
+    </g>
+
+    <text x="0" y="708" font-size="11.5" class="t3">Every number here comes from git, the test run, or the session itself. None are invented.</text>
+  </g>
+</svg>
