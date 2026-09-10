@@ -1,5 +1,7 @@
 # AuDHD summary
 
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/izored) [![Buy me a coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-ffdd00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/izored)
+
 A [Claude Code](https://claude.com/claude-code) skill that makes Claude end long
 sessions with a **visual status board** instead of paragraphs.
 
